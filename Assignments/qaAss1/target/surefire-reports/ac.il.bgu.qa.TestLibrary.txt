@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: ac.il.bgu.qa.TestLibrary
+-------------------------------------------------------------------------------
+Tests run: 57, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 2.402 s <<< FAILURE! -- in ac.il.bgu.qa.TestLibrary
+ac.il.bgu.qa.TestLibrary.testAddBook_whenEverthingWorks_thenNotError -- Time elapsed: 0.043 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.IllegalArgumentException: Invalid ISBN.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3168)
+	at ac.il.bgu.qa.TestLibrary.testAddBook_whenEverthingWorks_thenNotError(TestLibrary.java:164)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.IllegalArgumentException: Invalid ISBN.
+	at ac.il.bgu.qa.Library.addBook(Library.java:36)
+	at ac.il.bgu.qa.TestLibrary.lambda$testAddBook_whenEverthingWorks_thenNotError$5(TestLibrary.java:164)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 6 more
+
+ac.il.bgu.qa.TestLibrary.testBorrowBook_whenNoUser_ThenReturnUserNotRegisteredException -- Time elapsed: 0.011 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <ac.il.bgu.qa.errors.UserNotRegisteredException> but was: <ac.il.bgu.qa.errors.BookNotFoundException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at ac.il.bgu.qa.TestLibrary.testBorrowBook_whenNoUser_ThenReturnUserNotRegisteredException(TestLibrary.java:369)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: ac.il.bgu.qa.errors.BookNotFoundException: Book not found!
+	at ac.il.bgu.qa.Library.notifyUserWithBookReviews(Library.java:271)
+	at ac.il.bgu.qa.TestLibrary.lambda$testBorrowBook_whenNoUser_ThenReturnUserNotRegisteredException$14(TestLibrary.java:369)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+ac.il.bgu.qa.TestLibrary.testAddBook_whenGetInvalidISBN_ThenThrowIllegalArgumentException -- Time elapsed: 0.012 s <<< ERROR!
+org.mockito.exceptions.misusing.NotAMockException: 
+
+Argument passed to when() is not a mock!
+Example of correct stubbing:
+    doThrow(new RuntimeException()).when(mock).someMethod();
+	at ac.il.bgu.qa.TestLibrary.testAddBook_whenGetInvalidISBN_ThenThrowIllegalArgumentException(TestLibrary.java:81)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+ac.il.bgu.qa.TestLibrary.testReturnBook_whenBookIsNull_ThenThrowBookNotFoundException -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <ac.il.bgu.qa.errors.BookNotFoundException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at ac.il.bgu.qa.TestLibrary.testReturnBook_whenBookIsNull_ThenThrowBookNotFoundException(TestLibrary.java:466)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: ac.il.bgu.qa.errors.BookNotFoundException: Book not found!
+	at ac.il.bgu.qa.Library.returnBook(Library.java:231)
+	at ac.il.bgu.qa.TestLibrary.lambda$testReturnBook_whenBookIsNull_ThenThrowBookNotFoundException$20(TestLibrary.java:466)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

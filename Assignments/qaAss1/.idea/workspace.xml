@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4cfef948-3416-4160-a125-7c213029d4d5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2b8M0ZtlejYwkwjvhW4H5juUVjg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TestLibrary.executor": "Coverage",
+    "JUnit.TestLibrary.getBookByISBN.executor": "Run",
+    "JUnit.TestLibrary.getBookByISBN_.executor": "Debug",
+    "JUnit.TestLibrary.getBookByISBN_notifyUserWithBookReviewsErr.executor": "Debug",
+    "JUnit.TestLibrary.getBookByISBN_thenBookAlreadyBorrowedException.executor": "Run",
+    "JUnit.TestLibrary.getBookByISBN_whenBookisNull_ThenThrowBookNotFoundException.executor": "Run",
+    "JUnit.TestLibrary.getBookByISBN_whenIsBorrowed_thenBookAlreadyBorrowedException.executor": "Debug",
+    "JUnit.TestLibrary.getBookByISBN_whennotifyUserWithBookReviewsIsErr_thenPrintNotificationFailed.executor": "Debug",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_.executor": "Run",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenNoBook_ThenReturnBookNotFoundException.executor": "Run",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenNoBook_ThenReturnReviewServiceUnavailableExceptio.executor": "Debug",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenNoBook_ThenReturnReviewServiceUnavailableException.executor": "Debug",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenNoBook_ThenReturnUserNotRegisteredException.executor": "Run",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenNoReviews_ThenReturnNoReviewsFoundException.executor": "Run",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenReviewServiceReturnsNull_ThenThrowNoReviewsFoundException.executor": "Run",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenSendNotificationSucceeds_ThenReturn.executor": "Run",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenSendNotificationThrowsNotificationException_ThenPrintNotificationFailed.executor": "Run",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenUserIdWrong_ThenReturnIllegalArgumentException.executor": "Run",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenUserIdWrong_thenIllegalArgumentExceptio.executor": "Debug",
+    "JUnit.TestLibrary.notifyUserWithBookReviews_whenUserIsNull_ThenReturnReviewServiceUnavailableExceptio.executor": "Run",
+    "JUnit.TestLibrary.testAddBook.executor": "Run",
+    "JUnit.TestLibrary.testAddBook_whenAuthorIsInvalid_thenThrowError.executor": "Debug",
+    "JUnit.TestLibrary.testAddBook_whenBookIsAlreadyInDB_thenThrowError.executor": "Run",
+    "JUnit.TestLibrary.testAddBook_whenBookIsAlreadyInDB_thenThrowIllegalArgumentException.executor": "Run",
+    "JUnit.TestLibrary.testAddBook_whenBookIsisBorrowed_thenThrowIllegalArgumentException.executor": "Run",
+    "JUnit.TestLibrary.testAddBook_whenEverthingWorks_thenNotError.executor": "Run",
+    "JUnit.TestLibrary.testAddBook_whenGetInvalidISBN_ThenReturnError (1).executor": "Run",
+    "JUnit.TestLibrary.testAddBook_whenGetInvalidISBN_ThenReturnError.executor": "Run",
+    "JUnit.TestLibrary.testAddBook_whenGetInvalidISBN_ThenThrowIllegalArgumentException.executor": "Run",
+    "JUnit.TestLibrary.testAddBook_whenTitleIsInvalid_thenThrowError.executor": "Debug",
+    "JUnit.TestLibrary.testBorrowBook_whenBookIsNull_thenReturnBookNotFoundException.executor": "Run",
+    "JUnit.TestLibrary.testBorrowBook_whenBorrowIsSuccessful_thenReturnNotError.executor": "Run",
+    "JUnit.TestLibrary.testBorrowBook_whenDBserviceGetUserByIdIsNull_thenThrowIllegalArgumentException.executor": "Run",
+    "JUnit.TestLibrary.testBorrowBook_whenGetInvalidISBN_ThenReturnIllegalArgumentException.executor": "Debug",
+    "JUnit.TestLibrary.testBorrowBook_whenGetUserByIdIsNull_IllegalArgumentException.executor": "Run",
+    "JUnit.TestLibrary.testBorrowBook_whenIsBorrowed_ThenReturnBookAlreadyBorrowedException.executor": "Run",
+    "JUnit.TestLibrary.testBorrowBook_whenIsNull_ThenReturnBookNotFoundException.executor": "Debug",
+    "JUnit.TestLibrary.testBorrowBook_whenNoUser_ThenReturnUserNotRegisteredException.executor": "Run",
+    "JUnit.TestLibrary.testBorrowBook_whenStringUserIDisInvalid_thenThrowError.executor": "Run",
+    "JUnit.TestLibrary.testGetBookByISBN_whenStringUserIDisInvalid_thenThrowError.executor": "Run",
+    "JUnit.TestLibrary.testGetBook_whenGetInvalidISBN_ThenThrowIllegalArgumentException.executor": "Debug",
+    "JUnit.TestLibrary.testRegisterUse_whenDBgetUserByIDisNull_thenThrowIllegalArgumentException.executor": "Debug",
+    "JUnit.TestLibrary.testRegisterUser_whenStringUserIDisInvalid_thenThrowError.executor": "Run",
+    "JUnit.TestLibrary.testRegisterUser_whenUserDatabaseServiceIsNull_thenThrowIllegalArgumentException.executor": "Run",
+    "JUnit.TestLibrary.testRegisterUser_whenUserIsNull_thenThrowError.executor": "Run",
+    "JUnit.TestLibrary.testRegisterUser_whenUserIsValid_thenThrowNoError.executor": "Run",
+    "JUnit.TestLibrary.testReturnBook.executor": "Run",
+    "JUnit.TestLibrary.testReturnBook_WhenBookIsNull.executor": "Run",
+    "JUnit.TestLibrary.testReturnBook_whenBookIsNotBorrowed_ThenThrowBookNotBorrowedException.executor": "Debug",
+    "JUnit.TestLibrary.testReturnBook_whenBookIsNotBorrowed_ThenThrowBookNotFoundException.executor": "Debug",
+    "JUnit.TestLibrary.testReturnBook_whenBookIsNotBorrowed_thenReturn_bookNotBorrowedException.executor": "Run",
+    "JUnit.TestLibrary.testReturnBook_whenBookIsNull_ThenThrowBookNotFoundException.executor": "Run",
+    "JUnit.TestLibrary.testReturnBook_whenReturnIsSuccessful_thenReturnNotError.executor": "Run",
+    "Maven.qa-library [test].executor": "Run",
+    "Maven.qaAss1 [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Chen/IdeaProjects/qaAss1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Chen/IdeaProjects/qaAss1/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chen\IdeaProjects\qaAss1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chen\IdeaProjects\qaAss1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestLibrary">
+    <configuration name="TestLibrary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.il.bgu.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.il.bgu.qa" />
+      <option name="MAIN_CLASS_NAME" value="ac.il.bgu.qa.TestLibrary" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLibrary.notifyUserWithBookReviews_whenReviewServiceReturnsNull_ThenThrowNoReviewsFoundException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.il.bgu.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.il.bgu.qa" />
+      <option name="MAIN_CLASS_NAME" value="ac.il.bgu.qa.TestLibrary" />
+      <option name="METHOD_NAME" value="notifyUserWithBookReviews_whenReviewServiceReturnsNull_ThenThrowNoReviewsFoundException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLibrary.notifyUserWithBookReviews_whenSendNotificationSucceeds_ThenReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.il.bgu.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.il.bgu.qa" />
+      <option name="MAIN_CLASS_NAME" value="ac.il.bgu.qa.TestLibrary" />
+      <option name="METHOD_NAME" value="notifyUserWithBookReviews_whenSendNotificationSucceeds_ThenReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLibrary.notifyUserWithBookReviews_whenSendNotificationThrowsNotificationException_ThenPrintNotificationFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.il.bgu.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.il.bgu.qa" />
+      <option name="MAIN_CLASS_NAME" value="ac.il.bgu.qa.TestLibrary" />
+      <option name="METHOD_NAME" value="notifyUserWithBookReviews_whenSendNotificationThrowsNotificationException_ThenPrintNotificationFailed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLibrary.testBorrowBook_whenDBserviceGetUserByIdIsNull_thenThrowIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.il.bgu.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.il.bgu.qa" />
+      <option name="MAIN_CLASS_NAME" value="ac.il.bgu.qa.TestLibrary" />
+      <option name="METHOD_NAME" value="testBorrowBook_whenDBserviceGetUserByIdIsNull_thenThrowIllegalArgumentException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestLibrary" />
+        <item itemvalue="JUnit.TestLibrary.notifyUserWithBookReviews_whenReviewServiceReturnsNull_ThenThrowNoReviewsFoundException" />
+        <item itemvalue="JUnit.TestLibrary.notifyUserWithBookReviews_whenSendNotificationSucceeds_ThenReturn" />
+        <item itemvalue="JUnit.TestLibrary.notifyUserWithBookReviews_whenSendNotificationThrowsNotificationException_ThenPrintNotificationFailed" />
+        <item itemvalue="JUnit.TestLibrary.testBorrowBook_whenDBserviceGetUserByIdIsNull_thenThrowIllegalArgumentException" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-graalvm-jdk-17.0.9-f644763e9732-ba762f68" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cfef948-3416-4160-a125-7c213029d4d5" name="Changes" comment="" />
+      <created>1705592032398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705592032398</updated>
+      <workItem from="1705592034199" duration="19057000" />
+      <workItem from="1705851260533" duration="19412000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ac/il/bgu/qa/TestLibrary.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ac/il/bgu/qa/TestLibrary.java</url>
+          <line>555</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ac/il/bgu/qa/Library.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ac/il/bgu/qa/TestLibrary.java</url>
+          <line>268</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ac/il/bgu/qa/TestLibrary.java</url>
+          <line>312</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qaAss1$TestLibrary.ic" NAME="TestLibrary Coverage Results" MODIFIED="1705872096908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ac.il.bgu.qa.*</FILTER>
+    </SUITE>
+  </component>
+</project>
